@@ -200,6 +200,10 @@ font-weight: 500;
     .teams-img{
         grid-template-columns: 1fr;
     }
+    .teams-content .facts-card-container{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
 /* tablet */
 @media screen and (min-width:576px)and(max-width:960px){
@@ -209,7 +213,7 @@ font-weight: 500;
     nav, .teams-container,.feature,.facts-card-container,.sponser-img{
         flex-direction: column;
     }
-    .teams-content{
+    .teams-content .facts-card-container{
         padding-right: 20px;
         padding-left: 20px;
     }
